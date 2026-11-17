@@ -1,0 +1,46 @@
+{
+  "name": "mofang-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "公考立体几何模拟器前端：Vue3（选项式 API）+ Three.js + Tween.js + Bootstrap5",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "precommit": "lint-staged",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^25.0.0",
+    "axios": "^1.21.1",
+    "bootstrap": "^5.3.3",
+    "three": "^0.187.0",
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.65.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "@vitest/coverage-v8": "^5.1.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-vue": "^10.12.1",
+    "globals": "^17.14.0",
+    "jsdom": "^31.0.1",
+    "lint-staged": "^17.6.1",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint --fix"
+  }
+}

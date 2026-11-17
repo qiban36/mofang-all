@@ -1,0 +1,24 @@
+#!/bin/sh
+# =============================================================================
+# 提交前自动检查：只对「本次暂存」的前端文件跑 ESLint 自动修复（lint-staged）
+#
+# 启用（在 git 仓库根目录执行一次即可，零额外依赖）：
+#   git config core.hooksPath .githooks
+#   git update-index --chmod=+x .githooks/pre-commit   # Windows 需要补可执行位
+#
+# 当前项目还不是 git 仓库，所以这个钩子尚未挂载；初始化仓库后按上面两行启用。
+# =============================================================================
+
+set -e
+
+ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo .)"
+cd "$ROOT/frontend" || exit 0
+
+# 便携版 Node 不在系统 PATH 时兜底使用项目内的 .tools 目录
+if ! command -v npx >/dev/null 2>&1; then
+  PATH="$ROOT/.tools/node-v26.13.1-win-x64:$PATH"
+  export PATH
+fi
+
+# --no-install：绝不因为钩子而临时联网装包
+npx --no-install lint-staged

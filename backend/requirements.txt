@@ -1,0 +1,13 @@
+# 粉笔魔方 · 几何计算后端依赖
+# 安装：python -m pip install -r requirements.txt
+#
+# 只有 Web 框架相关依赖，几何计算全部手写（点积 / 叉积 / 线段与平面求交 / 绕轴旋转），
+# 故意不引入 numpy，保证"一刀切"的推导过程每一步都能读懂、能打印。
+
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.27
+pydantic>=2.5,<3.0
+
+# 可选：只是给自测脚本里的 HTTP 冒烟测试用（fastapi.testclient 依赖 httpx）。
+# 只跑几何逻辑（python test_geometry.py）不需要它。
+httpx>=0.27

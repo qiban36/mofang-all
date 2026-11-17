@@ -1,0 +1,38 @@
+/* 全局样式：让页面占满窗口，并统一字体与背景 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+  background: #eef1f6;
+  color: #1f2d3d;
+  /* 3D 画布占满右侧，禁止整页滚动（面板自己滚） */
+  overflow: hidden;
+}
+
+/* Three.js 生成的 canvas 默认是 inline，这里改成块级，避免底部多出几像素缝隙 */
+canvas {
+  display: block;
+}
+
+/* 让数字类文本更好对齐 */
+.font-monospace {
+  font-variant-numeric: tabular-nums;
+}
+
+/* 尊重系统「减少动态效果」设置：停掉 Bootstrap 的过渡 / 动画 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

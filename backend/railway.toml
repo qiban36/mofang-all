@@ -1,0 +1,22 @@
+# Railway 部署配置（FastAPI 后端）
+#
+# Railway 会自动识别 Nixpacks：requirements.txt → pip install；
+# 这里显式指定 build 和 start，避免默认猜测（例如它可能尝试 flask run）。
+#
+# 部署步骤：
+#   1. git init + 推到 GitHub（后端和前端在同一个仓库，所以 Railway 里要选
+#      "Monorepo" 并指定 backend/ 为 Root Directory）
+#   2. 新建 Web Service，Connect GitHub 仓库，设置 Root Directory = backend
+#   3. 在 Railway Service → Variables 里加 CORS_ORIGINS，示例：
+#      CORS_ORIGINS=https://你的vercel域名.vercel.app
+#   4. Deploy，拿到 xxx.up.railway.app 域名
+#
+[build]
+builder = "NIXPACKS"
+buildCommand = "pip install -r requirements.txt"
+
+[deploy]
+# Railway 会注入 PORT，main.py 里读它；这里只需要告诉 railway 用 uvicorn 启动
+startCommand = "uvicorn main:app --host 0.0.0.0 --port $PORT"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
