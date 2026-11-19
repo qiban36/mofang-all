@@ -1,17 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm --prefix frontend install",
   "buildCommand": "npm --prefix frontend run build",
   "outputDirectory": "frontend/dist",
-  "framework": null,
-
   "functions": {
-    "api/index.py": {
-      "runtime": "@vercel/python",
+    "api/[...path].py": {
+      "includeFiles": "backend/**",
       "maxDuration": 10
     }
-  },
-
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  }
 }
