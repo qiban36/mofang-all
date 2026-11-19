@@ -3,16 +3,15 @@
   "buildCommand": "npm --prefix frontend run build",
   "outputDirectory": "frontend/dist",
   "framework": null,
-  "installCommand": "npm --prefix frontend install && pip install -r api/requirements.txt",
 
   "functions": {
     "api/index.py": {
-      "runtime": "python3.12"
+      "runtime": "@vercel/python",
+      "maxDuration": 10
     }
   },
 
   "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/index.py" },
-    { "source": "/(.*)", "destination": "/frontend/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
