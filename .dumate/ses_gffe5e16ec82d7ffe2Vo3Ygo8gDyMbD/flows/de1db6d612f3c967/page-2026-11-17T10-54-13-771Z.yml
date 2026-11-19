@@ -1,0 +1,247 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - main:
+        - generic:
+          - main:
+            - generic:
+              - generic [ref=e1]:
+                - img [ref=e4]
+                - generic [ref=e5]:
+                  - generic [ref=e8]: "100"
+                  - img [ref=e12]
+              - generic:
+                - generic [ref=e14]:
+                  - generic:
+                    - img [ref=e15]
+                    - generic:
+                      - button "Choose File" [ref=e16]
+                      - button "Choose File" [ref=e17]
+                      - button "Choose File" [ref=e18]
+                      - generic [ref=e20]:
+                        - generic [ref=e21]:
+                          - generic: 说说你的想法，@快捷调用技能
+                        - generic [ref=e22]:
+                          - img [ref=e24] [cursor=pointer]
+                          - generic [ref=e26]:
+                            - img [ref=e28]
+                            - img [ref=e34] [cursor=pointer]
+                            - img [ref=e40]
+                    - generic [ref=e42]:
+                      - generic "网页" [ref=e45] [cursor=pointer]
+                      - generic "小程序" [ref=e48] [cursor=pointer]
+                      - generic "App开发" [ref=e51] [cursor=pointer]
+                      - generic "游戏" [ref=e54] [cursor=pointer]
+                      - generic [ref=e56] [cursor=pointer]:
+                        - img [ref=e58]
+                        - generic "技能创建" [ref=e61]
+                      - generic [ref=e63] [cursor=pointer]:
+                        - img [ref=e65]
+                        - generic "图片生成" [ref=e70]
+                      - generic [ref=e72] [cursor=pointer]:
+                        - img [ref=e74]
+                        - generic "视频生成" [ref=e78]
+                      - generic [ref=e80] [cursor=pointer]:
+                        - img [ref=e82]
+                        - generic "数据分析" [ref=e85]
+                      - generic [ref=e87] [cursor=pointer]:
+                        - img [ref=e89]
+                        - generic "深度研究" [ref=e93]
+                      - generic [ref=e95] [cursor=pointer]:
+                        - img [ref=e97]
+                        - generic "PPT生成" [ref=e101]
+                      - generic [ref=e103] [cursor=pointer]:
+                        - img [ref=e105]
+                        - generic "网页抓取" [ref=e107]
+                - generic:
+                  - generic:
+                    - generic [ref=e108]:
+                      - generic:
+                        - generic:
+                          - generic [ref=e109]: 应用广场
+                          - generic [ref=e110]:
+                            - img [ref=e111]
+                            - generic [ref=e113]: 上架应用
+                        - generic [ref=e114]:
+                          - generic [ref=e115] [cursor=pointer]: 全部
+                          - generic [ref=e116] [cursor=pointer]: 模板
+                    - generic [ref=e117]:
+                      - generic [ref=e118]:
+                        - generic [ref=e119] [cursor=pointer]: 推荐
+                        - generic [ref=e120] [cursor=pointer]: 企业
+                        - generic [ref=e121] [cursor=pointer]: 游戏
+                        - generic [ref=e122] [cursor=pointer]: 工具
+                        - generic [ref=e123] [cursor=pointer]: 教育
+                        - generic [ref=e124] [cursor=pointer]: 网站
+                        - generic [ref=e125] [cursor=pointer]: 电商
+                        - generic [ref=e126] [cursor=pointer]: 营销
+                        - generic [ref=e127] [cursor=pointer]: 研究
+                        - generic [ref=e128] [cursor=pointer]: 问卷
+                        - generic [ref=e129] [cursor=pointer]: 其他
+                      - img [ref=e131]
+                    - generic [ref=e133]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic [ref=e134]:
+                              - generic:
+                                - generic [ref=e135] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e137] [cursor=pointer]: 1.7K
+                                  - img
+                                  - generic [ref=e139] [cursor=pointer]: 1.5K
+                              - generic [ref=e140]: 烧心朋友图鉴
+                              - generic [ref=e141]:
+                                - generic [ref=e143]: 游戏
+                                - generic: 路丹【感谢关注，接商单】
+                            - generic [ref=e144]:
+                              - generic:
+                                - generic [ref=e145] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e147] [cursor=pointer]: 1.3K
+                                  - img
+                                  - generic [ref=e149] [cursor=pointer]: "986"
+                              - generic [ref=e150]: 本草智鉴
+                              - generic [ref=e151]:
+                                - generic [ref=e153]: 工具
+                                - generic: 陈星纪
+                            - generic [ref=e154]:
+                              - generic:
+                                - generic [ref=e155] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e157] [cursor=pointer]: "478"
+                                  - img
+                                  - generic [ref=e159] [cursor=pointer]: 1.2K
+                              - generic [ref=e160]: 雨山小寺
+                              - generic [ref=e161]:
+                                - generic [ref=e163]: 游戏
+                                - generic: 沉默的伽拉泰亚
+                            - generic [ref=e164]:
+                              - generic:
+                                - generic [ref=e165] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e167] [cursor=pointer]: 1.1K
+                                  - img
+                                  - generic [ref=e169] [cursor=pointer]: "985"
+                              - generic [ref=e170]: 换个家·房屋互换平台_换房旅游_房屋交换旅居
+                              - generic [ref=e171]:
+                                - generic [ref=e173]: 电商
+                                - generic: 东哥AI创业
+                            - generic [ref=e174]:
+                              - generic:
+                                - generic [ref=e175] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e177] [cursor=pointer]: "677"
+                                  - img
+                                  - generic [ref=e179] [cursor=pointer]: "268"
+                              - generic [ref=e180]: 海丝智寻
+                              - generic [ref=e181]:
+                                - generic [ref=e183]: 其他
+                                - generic: "6645971133"
+                            - generic [ref=e184]:
+                              - generic:
+                                - generic [ref=e185] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e187] [cursor=pointer]: "394"
+                                  - img
+                                  - generic [ref=e189] [cursor=pointer]: "766"
+                              - generic [ref=e190]: zoraAI
+                              - generic [ref=e191]:
+                                - generic [ref=e193]: 网站
+                                - generic: 盛祥莫浅
+                          - generic:
+                            - generic [ref=e194]:
+                              - generic:
+                                - generic [ref=e195] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e197] [cursor=pointer]: 1.1K
+                                  - img
+                                  - generic [ref=e199] [cursor=pointer]: "275"
+                              - generic [ref=e200]: 三医一张网门户
+                              - generic [ref=e201]:
+                                - generic [ref=e203]: 网站
+                                - generic: sunny时间旅人
+                            - generic [ref=e204]:
+                              - generic:
+                                - generic [ref=e205] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e207] [cursor=pointer]: "645"
+                                  - img
+                                  - generic [ref=e209] [cursor=pointer]: "828"
+                              - generic [ref=e210]: 乐学课时记账小程序
+                              - generic [ref=e211]:
+                                - generic [ref=e213]: 教育
+                                - generic: albame
+                            - generic [ref=e214]:
+                              - generic:
+                                - generic [ref=e215] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e217] [cursor=pointer]: "180"
+                                  - img
+                                  - generic [ref=e219] [cursor=pointer]: "989"
+                              - generic [ref=e220]: 针脚日记
+                              - generic [ref=e221]:
+                                - generic [ref=e223]: 游戏
+                                - generic: 沉默的伽拉泰亚
+                            - generic [ref=e224]:
+                              - generic:
+                                - generic [ref=e225] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e227] [cursor=pointer]: "874"
+                                  - img
+                                  - generic [ref=e229] [cursor=pointer]: "649"
+                              - generic [ref=e230]: 乐器模拟器
+                              - generic [ref=e231]:
+                                - generic [ref=e233]: 工具
+                                - generic: 来乐队
+                            - generic [ref=e234]:
+                              - generic:
+                                - generic [ref=e235] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e237] [cursor=pointer]: "681"
+                                  - img
+                                  - generic [ref=e239] [cursor=pointer]: "112"
+                              - generic [ref=e240]: 蜗牛工作室官网
+                              - generic [ref=e241]:
+                                - generic [ref=e243]: 网站
+                                - generic: 蜗牛工作室
+                            - generic [ref=e244]:
+                              - generic:
+                                - generic [ref=e245] [cursor=pointer]:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic [ref=e247] [cursor=pointer]: 5.6K
+                                  - img
+                                  - generic [ref=e249] [cursor=pointer]: "281"
+                              - generic [ref=e250]: 萌宠老板-宠物店管理系统_宠物收银软件_宠物生活社区
+                              - generic [ref=e251]:
+                                - generic [ref=e253]: 网站
+                                - generic: 东哥AI创业
+                  - generic [ref=e254]:
+                    - generic [ref=e255]:
+                      - img [ref=e256]
+                      - textbox "搜索应用" [ref=e258]
+                    - generic [ref=e259] [cursor=pointer]: 取消

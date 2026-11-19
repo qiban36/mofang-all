@@ -1,0 +1,84 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - img
+    - generic:
+      - generic:
+        - generic:
+          - generic: "100"
+      - generic:
+        - generic:
+          - generic:
+            - img
+  - generic:
+    - generic: 项目
+    - generic:
+      - img
+      - generic: 创建项目
+  - generic:
+    - list:
+      - listitem:
+        - generic: 我创建的
+    - generic:
+      - generic:
+        - generic: 全部
+        - img
+      - generic:
+        - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+        - generic:
+          - generic:
+            - paragraph: 在线
+            - generic:
+              - img
+              - img
+          - generic:
+            - generic:
+              - img
+              - generic: "-"
+      - generic:
+        - generic:
+          - generic:
+            - generic: 立体几何模拟器
+          - generic:
+            - generic:
+              - generic: 编辑于今天 18:30
+          - generic:
+            - generic:
+              - generic: 网站
+            - generic:
+              - button:
+                - img
+  - generic:
+    - generic:
+      - img
+      - textbox:
+        - /placeholder: 搜索应用
+    - generic: 取消
+  - generic:
+    - list:
+      - listitem:
+        - generic: 我创建的
+    - generic:
+      - generic: 全部类型
+      - img
+  - dialog "确认删除该项目吗？" [ref=e87]:
+    - heading "确认删除该项目吗？" [level=2] [ref=e89]:
+      - generic [ref=e90]:
+        - img [ref=e91]
+        - text: 确认删除该项目吗？
+    - generic [ref=e93]:
+      - paragraph [ref=e94]: 项目删除后将在回收站保留30天，过期后将永久删除；同时删除将导致部分配置不可恢复，请谨慎操作：
+      - list [ref=e95]:
+        - listitem [ref=e96]: "* 项目将自动下线及从广场下架 (恢复后需要重新发布)"
+        - listitem [ref=e97]: "* 项目绑定的自定义域名将被删除 (恢复后需重新配置)"
+        - listitem [ref=e98]: "* 项目的自定义域名前缀将被自动释放 (恢复后需重新配置)"
+    - generic [ref=e99]:
+      - button "取消" [active] [ref=e100] [cursor=pointer]
+      - button "移入回收站" [ref=e101] [cursor=pointer]
+    - img [ref=e102] [cursor=pointer]

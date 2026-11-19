@@ -1,0 +1,62 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - main:
+        - generic:
+          - main:
+            - generic:
+              - generic [ref=e1]:
+                - img [ref=e4]
+                - generic [ref=e5]:
+                  - generic [ref=e8]: "100"
+                  - img [ref=e12]
+              - generic:
+                - generic:
+                  - generic [ref=e14]:
+                    - generic [ref=e15]: 项目
+                    - generic [ref=e16] [cursor=pointer]:
+                      - img [ref=e17]
+                      - generic [ref=e19]: 创建项目
+                  - generic [ref=e20]:
+                    - list [ref=e21]:
+                      - listitem [ref=e22] [cursor=pointer]:
+                        - generic [ref=e23]: 我创建的
+                    - generic [ref=e24]:
+                      - generic [ref=e25]:
+                        - generic [ref=e26]: 全部
+                        - img [ref=e27]
+                      - img [ref=e31]
+                  - generic [ref=e33]:
+                    - generic [ref=e34] [cursor=pointer]:
+                      - generic [ref=e35]:
+                        - img [ref=e37]
+                        - generic [ref=e39]:
+                          - generic [ref=e40]:
+                            - paragraph [ref=e41]: 在线
+                            - generic [ref=e42]:
+                              - img [ref=e43]
+                              - img [ref=e45]
+                          - generic [ref=e48]:
+                            - img [ref=e49]
+                            - generic [ref=e51]: "-"
+                      - generic [ref=e53]:
+                        - generic [ref=e55]: 立体几何模拟器
+                        - generic [ref=e58]: 编辑于今天 18:30
+                        - generic [ref=e59]:
+                          - generic [ref=e61]: 网站
+                          - button [ref=e63]:
+                            - img
+                    - generic: 已经到底部了
+                  - generic:
+                    - generic [ref=e64]:
+                      - generic [ref=e65]:
+                        - img [ref=e66]
+                        - textbox "搜索应用" [ref=e68]
+                      - generic [ref=e69] [cursor=pointer]: 取消
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: 我创建的
+                      - generic:
+                        - generic: 全部类型
+                        - img

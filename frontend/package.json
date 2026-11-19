@@ -2,7 +2,7 @@
   "name": "mofang-web",
   "version": "1.0.0",
   "private": true,
-  "description": "公考立体几何模拟器前端：Vue3（选项式 API）+ Three.js + Tween.js + Bootstrap5",
+  "description": "空间几何模拟器前端：Vue3（选项式 API）+ Three.js + Tween.js + Bootstrap5",
   "type": "module",
   "engines": {
     "node": ">=20.19"

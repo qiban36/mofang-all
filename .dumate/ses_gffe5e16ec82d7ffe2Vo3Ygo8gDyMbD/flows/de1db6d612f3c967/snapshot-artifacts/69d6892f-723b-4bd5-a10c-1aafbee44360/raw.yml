@@ -1,0 +1,202 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - main [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - img [ref=e10]
+            - generic [ref=e13]:
+              - heading "粉笔魔方 · 公考立体几何模拟器" [level=1] [ref=e14]
+              - paragraph [ref=e15]: 正方体折叠 · 平面截面 · 教学演示
+          - generic [ref=e16]:
+            - button "复位视角" [ref=e17] [cursor=pointer]:
+              - img
+              - generic [ref=e18]: 复位视角
+            - button "一键演示" [ref=e19] [cursor=pointer]:
+              - img
+              - text: 一键演示
+        - generic [ref=e20]:
+          - complementary [ref=e21]:
+            - generic [ref=e23]:
+              - generic [ref=e24]:
+                - text: 几何体
+                - generic [ref=e25]:
+                  - button "正方体" [ref=e26] [cursor=pointer]:
+                    - img [ref=e27]
+                    - text: 正方体
+                  - button "长方体" [ref=e30] [cursor=pointer]:
+                    - img [ref=e31]
+                    - text: 长方体
+              - generic [ref=e36]:
+                - generic [ref=e37]:
+                  - img [ref=e38]
+                  - heading "展开图折叠" [level=2] [ref=e42]
+                - generic [ref=e43]:
+                  - generic [ref=e44]: 选择展开图
+                  - paragraph [ref=e45]: 11 种正方体展开图，点击缩略图切换
+                  - generic [ref=e46]:
+                    - button "一四一型 ①" [ref=e47] [cursor=pointer]:
+                      - img [ref=e48]
+                      - generic [ref=e55]: 一四一型 ①
+                    - button "一四一型 ②" [ref=e56] [cursor=pointer]:
+                      - img [ref=e57]
+                      - generic [ref=e64]: 一四一型 ②
+                    - button "一四一型 ③" [ref=e65] [cursor=pointer]:
+                      - img [ref=e66]
+                      - generic [ref=e73]: 一四一型 ③
+                    - button "一四一型 ④" [ref=e74] [cursor=pointer]:
+                      - img [ref=e75]
+                      - generic [ref=e82]: 一四一型 ④
+                    - button "一四一型 ⑤" [ref=e83] [cursor=pointer]:
+                      - img [ref=e84]
+                      - generic [ref=e91]: 一四一型 ⑤
+                    - button "一四一型 ⑥" [ref=e92] [cursor=pointer]:
+                      - img [ref=e93]
+                      - generic [ref=e100]: 一四一型 ⑥
+                    - button "二三一型 ①" [ref=e101] [cursor=pointer]:
+                      - img [ref=e102]
+                      - generic [ref=e109]: 二三一型 ①
+                    - button "二三一型 ②" [ref=e110] [cursor=pointer]:
+                      - img [ref=e111]
+                      - generic [ref=e118]: 二三一型 ②
+                    - button "二三一型 ③" [ref=e119] [cursor=pointer]:
+                      - img [ref=e120]
+                      - generic [ref=e127]: 二三一型 ③
+                    - button "二二二型 ①" [ref=e128] [cursor=pointer]:
+                      - img [ref=e129]
+                      - generic [ref=e136]: 二二二型 ①
+                    - button "三三型 ①" [ref=e137] [cursor=pointer]:
+                      - img [ref=e138]
+                      - generic [ref=e145]: 三三型 ①
+                - generic [ref=e146]:
+                  - generic [ref=e149]: 面1
+                  - generic [ref=e152]: 面3
+                  - generic [ref=e155]: 面4
+                  - generic [ref=e158]: 面6
+                  - generic [ref=e161]: 面2
+                  - generic [ref=e164]: 面5
+                - generic [ref=e165]:
+                  - generic [ref=e166]: 折叠进度
+                  - generic [ref=e167]:
+                    - generic [ref=e168]:
+                      - generic [ref=e169]: 当前折叠面
+                      - generic [ref=e170]: —
+                    - generic [ref=e171]:
+                      - generic [ref=e172]: 折叠角度
+                      - generic [ref=e173]: 0°
+                  - generic [ref=e174]:
+                    - button "加载展开" [ref=e175] [cursor=pointer]:
+                      - img
+                      - text: 加载展开
+                    - button "折叠" [ref=e176] [cursor=pointer]:
+                      - img
+                      - text: 折叠
+                    - button "平铺" [disabled]:
+                      - img
+                      - text: 平铺
+                    - button "单步折叠" [ref=e177] [cursor=pointer]
+                    - button "单步展开" [disabled]:
+                      - img
+                      - text: 单步展开
+                    - button "重播" [ref=e178] [cursor=pointer]:
+                      - img
+                      - text: 重播
+                    - button "播放" [ref=e179] [cursor=pointer]:
+                      - img
+                      - text: 播放
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - generic [ref=e182]: 动画速度
+                    - generic [ref=e183]: 1.0×
+                  - slider [ref=e188]
+                  - paragraph [ref=e189]: 调节折叠动画的播放速度
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - img [ref=e192]
+                  - heading "平面截面" [level=2] [ref=e198]
+                - paragraph [ref=e199]: 请先加载展开并折叠成正方体，再切割截面
+                - generic [ref=e200]:
+                  - generic [ref=e201]: 截面预设
+                  - paragraph [ref=e202]: 按多边形边数分组，点击自动填入参数
+                  - generic [ref=e203]:
+                    - generic [ref=e204]:
+                      - generic [ref=e205]: 三角形
+                      - generic [ref=e206]:
+                        - button "等边三角形" [disabled] [ref=e207]:
+                          - generic [ref=e208]: 等边三角形
+                        - button "等腰三角形" [disabled] [ref=e209]:
+                          - generic [ref=e210]: 等腰三角形
+                        - button "锐角三角形" [disabled] [ref=e211]:
+                          - generic [ref=e212]: 锐角三角形
+                    - generic [ref=e213]:
+                      - generic [ref=e214]: 四边形
+                      - generic [ref=e215]:
+                        - button "菱形" [disabled] [ref=e216]:
+                          - generic [ref=e217]: 菱形
+                        - button "等腰梯形" [disabled] [ref=e218]:
+                          - generic [ref=e219]: 等腰梯形
+                        - button "普通梯形" [disabled] [ref=e220]:
+                          - generic [ref=e221]: 普通梯形
+                        - button "正方形" [disabled] [ref=e222]:
+                          - generic [ref=e223]: 正方形
+                        - button "矩形" [disabled] [ref=e224]:
+                          - generic [ref=e225]: 矩形
+                        - button "平行四边形" [disabled] [ref=e226]:
+                          - generic [ref=e227]: 平行四边形
+                    - generic [ref=e228]:
+                      - generic [ref=e229]: 五边形
+                      - button "五边形" [disabled] [ref=e231]:
+                        - generic [ref=e232]: 五边形
+                    - generic [ref=e233]:
+                      - generic [ref=e234]: 六边形
+                      - generic [ref=e235]:
+                        - button "正六边形" [disabled] [ref=e236]:
+                          - generic [ref=e237]: 正六边形
+                        - button "普通六边形" [disabled] [ref=e238]:
+                          - generic [ref=e239]: 普通六边形
+                - generic [ref=e240]:
+                  - generic [ref=e241]: 法向量 n
+                  - paragraph [ref=e242]: 平面的法向量分量 (nx, ny, nz)，步长 0.01
+                  - generic [ref=e243]:
+                    - generic [ref=e244]:
+                      - generic [ref=e245]: x
+                      - slider [ref=e250]
+                      - spinbutton [ref=e251]: "1"
+                    - generic [ref=e252]:
+                      - generic [ref=e253]: "y"
+                      - slider [ref=e258]
+                      - spinbutton [ref=e259]: "1"
+                    - generic [ref=e260]:
+                      - generic [ref=e261]: z
+                      - slider [ref=e266]
+                      - spinbutton [ref=e267]: "1"
+                - generic [ref=e268]:
+                  - generic [ref=e269]: 过点 P
+                  - paragraph [ref=e270]: 平面经过的定点坐标 (px, py, pz)，步长 0.05
+                  - generic [ref=e271]:
+                    - generic [ref=e272]:
+                      - generic [ref=e273]: x
+                      - slider [ref=e278]
+                      - spinbutton [ref=e279]: "0.5"
+                    - generic [ref=e280]:
+                      - generic [ref=e281]: "y"
+                      - slider [ref=e286]
+                      - spinbutton [ref=e287]: "0.5"
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: z
+                      - slider [ref=e294]
+                      - spinbutton [ref=e295]: "0.5"
+                - button "计算截面" [disabled]:
+                  - img
+                  - text: 计算截面
+          - main [ref=e296]:
+            - generic: 左键旋转 · 滚轮缩放 · 右键平移
+            - generic: 当前展开图：一四一型 ①
+        - generic [ref=e300]:
+          - paragraph [ref=e301]: 教学演示，几何计算由后端完成
+          - paragraph [ref=e302]: 粉笔魔方 v2.0
+    - region "Notifications alt+T"
+  - generic [ref=e303] [cursor=pointer]:
+    - img [ref=e304]
+    - generic [ref=e305]: 秒哒制作
+    - img [ref=e307]
